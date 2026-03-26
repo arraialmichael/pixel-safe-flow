@@ -11,30 +11,31 @@ const PricingSection = () => (
         viewport={{ once: true }}
         className="text-center mb-6"
       >
-        <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-          Comece grátis. <span className="text-gradient">Continue apenas se fizer sentido.</span>
+        <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-4">
+          Comece grátis.{" "}
+          <span className="text-gradient">Continue apenas se fizer sentido.</span>
         </h2>
-        <p className="text-muted-foreground text-lg mb-4">
+        <p className="text-muted-foreground text-lg mb-5">
           Teste todas as funcionalidades por 7 dias. Sem cartão de crédito.
         </p>
-        <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 text-primary px-4 py-2 rounded-full text-sm font-medium">
+        <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 text-primary px-5 py-2.5 rounded-full text-sm font-display font-medium">
           <Clock className="h-4 w-4" />
           Seu acesso completo expira em 7 dias
         </div>
       </motion.div>
 
-      <div className="grid md:grid-cols-2 gap-8 mt-12">
-        {/* Starter */}
+      <div className="grid md:grid-cols-2 gap-8 mt-14 items-start">
+        {/* Starter — deliberately muted */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="p-8 rounded-xl bg-card border border-border"
+          className="p-8 rounded-xl bg-card/50 border border-border/40 opacity-90"
         >
-          <h3 className="text-xl font-semibold text-foreground mb-1">Starter</h3>
+          <h3 className="text-xl font-display font-semibold text-foreground mb-1">Starter</h3>
           <p className="text-muted-foreground text-sm mb-6">Para quem está começando</p>
           <div className="mb-6">
-            <span className="text-4xl font-bold text-foreground">R$49</span>
+            <span className="text-4xl font-display font-bold text-foreground">R$49</span>
             <span className="text-muted-foreground">/mês</span>
           </div>
           <ul className="space-y-3 mb-8">
@@ -48,45 +49,52 @@ const PricingSection = () => (
             ].map((item) => (
               <li key={item.text} className="flex items-center gap-3 text-sm">
                 {item.ok ? (
-                  <Check className="h-4 w-4 text-primary shrink-0" />
+                  <Check className="h-4 w-4 text-primary/60 shrink-0" />
                 ) : (
-                  <X className="h-4 w-4 text-muted-foreground shrink-0" />
+                  <X className="h-4 w-4 text-muted-foreground/40 shrink-0" />
                 )}
-                <span className={item.ok ? "text-foreground" : "text-muted-foreground"}>{item.text}</span>
+                <span className={item.ok ? "text-foreground/80" : "text-muted-foreground/60"}>
+                  {item.text}
+                </span>
               </li>
             ))}
           </ul>
           <Button
             variant="outline"
-            className="w-full border-border text-foreground hover:bg-secondary py-6 transition-all hover:scale-105"
+            className="w-full border-border/50 text-foreground hover:bg-secondary py-6 transition-all"
           >
             Começar grátis
           </Button>
         </motion.div>
 
-        {/* Pro */}
+        {/* Pro — highlighted with border gradient */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.1 }}
-          className="relative p-8 rounded-xl bg-card border-2 border-primary/40 glow-blue-strong scale-[1.02]"
+          className="relative p-8 rounded-xl bg-card border-gradient glow-cyan-strong scale-[1.03]"
         >
+          {/* Badge */}
           <div className="absolute -top-4 left-1/2 -translate-x-1/2">
-            <div className="inline-flex items-center gap-1.5 bg-primary text-primary-foreground px-4 py-1.5 rounded-full text-xs font-semibold">
+            <div className="inline-flex items-center gap-1.5 bg-primary text-primary-foreground px-4 py-1.5 rounded-full text-xs font-display font-semibold shimmer-btn">
               <Star className="h-3 w-3" />
               Mais escolhido por designers profissionais
             </div>
           </div>
 
-          <h3 className="text-xl font-semibold text-foreground mb-1 mt-2">Pro</h3>
-          <p className="text-muted-foreground text-sm mb-6">Para quem quer fechar projetos com segurança</p>
+          <h3 className="text-xl font-display font-semibold text-foreground mb-1 mt-3">Pro</h3>
+          <p className="text-muted-foreground text-sm mb-6">
+            Para quem quer fechar projetos com segurança
+          </p>
           <div className="mb-2">
             <span className="text-muted-foreground line-through text-lg mr-2">R$147</span>
-            <span className="text-4xl font-bold text-foreground">R$99</span>
+            <span className="text-4xl font-display font-bold text-foreground">R$99</span>
             <span className="text-muted-foreground">/mês</span>
           </div>
-          <p className="text-primary text-xs font-medium mb-6">Oferta de lançamento por tempo limitado</p>
+          <p className="text-primary text-xs font-medium mb-6">
+            Oferta de lançamento por tempo limitado
+          </p>
 
           <ul className="space-y-3 mb-8">
             {[
@@ -105,9 +113,7 @@ const PricingSection = () => (
             ))}
           </ul>
 
-          <Button
-            className="w-full bg-primary text-primary-foreground hover:bg-primary/90 glow-blue py-6 text-base transition-all hover:scale-105 group animate-glow-pulse"
-          >
+          <Button className="w-full bg-primary text-primary-foreground hover:bg-primary/90 shimmer-btn py-6 text-base transition-all hover:scale-105 group animate-glow-pulse font-medium">
             Começar grátis
             <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
           </Button>

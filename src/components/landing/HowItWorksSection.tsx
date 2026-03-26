@@ -10,7 +10,7 @@ const steps = [
 ];
 
 const HowItWorksSection = () => (
-  <section id="como-funciona" className="section-padding">
+  <section id="como-funciona" className="section-padding relative">
     <div className="container mx-auto max-w-3xl">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -18,30 +18,46 @@ const HowItWorksSection = () => (
         viewport={{ once: true }}
         className="text-center mb-16"
       >
-        <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+        <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-4">
           Como <span className="text-gradient">funciona</span>
         </h2>
       </motion.div>
 
-      <div className="space-y-8">
-        {steps.map((step, i) => (
-          <motion.div
-            key={step.num}
-            initial={{ opacity: 0, x: i % 2 === 0 ? -20 : 20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: i * 0.1, duration: 0.5 }}
-            className="flex gap-6 items-start p-6 rounded-xl bg-card border border-border hover:border-glow transition-all group"
-          >
-            <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-primary/10 text-primary font-bold text-lg shrink-0 group-hover:bg-primary/20 transition-colors">
-              {step.num}
-            </div>
-            <div>
-              <h3 className="text-lg font-semibold text-foreground mb-1">{step.title}</h3>
-              <p className="text-muted-foreground text-sm">{step.desc}</p>
-            </div>
-          </motion.div>
-        ))}
+      <div className="relative">
+        {/* Vertical line */}
+        <div className="absolute left-6 md:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-primary/30 via-primary/10 to-transparent" />
+
+        <div className="space-y-12">
+          {steps.map((step, i) => {
+            const isRight = i % 2 !== 0;
+            return (
+              <motion.div
+                key={step.num}
+                initial={{ opacity: 0, x: isRight ? 30 : -30 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: i * 0.1, duration: 0.5 }}
+                className={`relative flex items-start gap-6 ${
+                  isRight ? "md:flex-row-reverse md:text-right" : ""
+                }`}
+              >
+                {/* Number circle */}
+                <div className="relative z-10 shrink-0 w-12 h-12 rounded-full border-gradient bg-card flex items-center justify-center">
+                  <span className="font-display font-bold text-primary text-sm">{step.num}</span>
+                </div>
+
+                <div className={`flex-1 p-6 rounded-xl bg-card/80 backdrop-blur-sm border border-border/50 hover:border-primary/30 transition-all duration-300 group hover:glow-cyan ${
+                  isRight ? "md:mr-12" : "md:ml-0"
+                }`}>
+                  <h3 className="text-lg font-display font-semibold text-foreground mb-1 group-hover:text-primary transition-colors duration-300">
+                    {step.title}
+                  </h3>
+                  <p className="text-muted-foreground text-sm">{step.desc}</p>
+                </div>
+              </motion.div>
+            );
+          })}
+        </div>
       </div>
     </div>
   </section>

@@ -10,32 +10,36 @@ const problems = [
 ];
 
 const ProblemSection = () => (
-  <section className="section-padding">
-    <div className="container mx-auto max-w-3xl">
+  <section className="section-padding relative overflow-hidden">
+    <div className="absolute inset-0 bg-mesh-danger pointer-events-none" />
+
+    <div className="container mx-auto max-w-3xl relative z-10">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
-        className="text-center mb-12"
+        className="text-center mb-14"
       >
-        <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-          Se você trabalha com design, <span className="text-gradient">já passou por isso:</span>
+        <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-4">
+          Se você trabalha com design,{" "}
+          <span className="text-gradient">já passou por isso:</span>
         </h2>
       </motion.div>
 
-      <div className="space-y-4 mb-12">
+      <div className="space-y-4 mb-14">
         {problems.map((problem, i) => (
           <motion.div
             key={i}
-            initial={{ opacity: 0, x: -20 }}
+            initial={{ opacity: 0, x: -30 + i * 8 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            transition={{ delay: i * 0.1, duration: 0.4 }}
-            className="flex items-center gap-4 p-4 rounded-lg bg-card border border-border"
+            transition={{ delay: i * 0.08, duration: 0.5 }}
+            className="flex items-center gap-4 p-5 rounded-xl bg-card/80 border border-border/50 backdrop-blur-sm"
+            style={{ marginLeft: `${i * 16}px` }}
           >
-            <AlertTriangle className="h-5 w-5 text-destructive shrink-0" />
-            <span className="text-foreground">{problem}</span>
+            <AlertTriangle className="h-5 w-5 text-destructive shrink-0 animate-pulse" />
+            <span className="text-foreground font-medium">{problem}</span>
           </motion.div>
         ))}
       </div>
@@ -44,9 +48,11 @@ const ProblemSection = () => (
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
-        className="text-center text-xl md:text-2xl font-semibold text-foreground"
+        transition={{ duration: 0.6 }}
+        className="text-center text-xl md:text-2xl font-display font-semibold text-foreground"
       >
-        O problema não é seu trabalho. <span className="text-gradient">É o processo.</span>
+        O problema não é seu trabalho.{" "}
+        <span className="text-glow text-primary">É o processo.</span>
       </motion.p>
     </div>
   </section>

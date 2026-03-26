@@ -13,7 +13,10 @@ import FinalCTASection from "@/components/landing/FinalCTASection";
 import Footer from "@/components/landing/Footer";
 
 const Index = () => (
-  <div className="min-h-screen bg-background">
+  <div className="min-h-screen bg-background relative">
+    {/* Global noise overlay */}
+    <div className="noise-overlay" />
+
     <Header />
     <HeroSection />
     <ProofSection />

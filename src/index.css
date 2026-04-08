@@ -74,7 +74,7 @@
   }
 
   .glow-cyan {
-    box-shadow: 0 0 30px hsl(190 100% 50% / 0.2), 0 0 60px hsl(190 100% 50% / 0.1);
+    box-shadow: 0 0 30px hsl(163 98% 44% / 0.2), 0 0 60px hsl(163 98% 44% / 0.1);
   }
 
   .glow-cyan-strong {

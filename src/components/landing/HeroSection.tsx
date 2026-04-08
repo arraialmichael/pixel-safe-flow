@@ -24,10 +24,10 @@ const HeroSection = () => {
       {/* Geometric SVG decoration */}
       <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[500px] h-[500px] opacity-[0.06] pointer-events-none hidden lg:block">
         <svg viewBox="0 0 500 500" fill="none" className="w-full h-full animate-spin-slow">
-          <rect x="100" y="100" width="300" height="300" rx="8" stroke="hsl(190 100% 50%)" strokeWidth="1" />
-          <rect x="150" y="150" width="200" height="200" rx="8" stroke="hsl(190 100% 50%)" strokeWidth="0.5" transform="rotate(15 250 250)" />
-          <rect x="175" y="175" width="150" height="150" rx="8" stroke="hsl(190 100% 50%)" strokeWidth="0.5" transform="rotate(30 250 250)" />
-          <circle cx="250" cy="250" r="60" stroke="hsl(190 100% 50%)" strokeWidth="0.5" />
+          <rect x="100" y="100" width="300" height="300" rx="8" stroke="hsl(163 98% 44%)" strokeWidth="1" />
+          <rect x="150" y="150" width="200" height="200" rx="8" stroke="hsl(163 98% 44%)" strokeWidth="0.5" transform="rotate(15 250 250)" />
+          <rect x="175" y="175" width="150" height="150" rx="8" stroke="hsl(163 98% 44%)" strokeWidth="0.5" transform="rotate(30 250 250)" />
+          <circle cx="250" cy="250" r="60" stroke="hsl(163 98% 44%)" strokeWidth="0.5" />
         </svg>
       </div>
 

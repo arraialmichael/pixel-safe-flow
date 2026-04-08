@@ -86,7 +86,7 @@
   }
 
   .bg-gradient-radial {
-    background: radial-gradient(ellipse at 50% 0%, hsl(190 100% 50% / 0.06) 0%, transparent 60%);
+    background: radial-gradient(ellipse at 50% 0%, hsl(163 98% 44% / 0.06) 0%, transparent 60%);
   }
 
   .bg-mesh-blue {

@@ -91,9 +91,9 @@
 
   .bg-mesh-blue {
     background:
-      radial-gradient(ellipse at 20% 50%, hsl(190 100% 50% / 0.08) 0%, transparent 50%),
-      radial-gradient(ellipse at 80% 20%, hsl(210 100% 50% / 0.05) 0%, transparent 50%),
-      radial-gradient(ellipse at 50% 80%, hsl(190 100% 50% / 0.04) 0%, transparent 50%);
+      radial-gradient(ellipse at 20% 50%, hsl(163 98% 44% / 0.08) 0%, transparent 50%),
+      radial-gradient(ellipse at 80% 20%, hsl(180 100% 50% / 0.05) 0%, transparent 50%),
+      radial-gradient(ellipse at 50% 80%, hsl(163 98% 44% / 0.04) 0%, transparent 50%);
   }
 
   .bg-mesh-danger {

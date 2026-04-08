@@ -42,8 +42,8 @@ const HowItWorksSection = () => (
                 }`}
               >
                 {/* Number circle */}
-                <div className="relative z-10 shrink-0 w-12 h-12 rounded-full border-gradient bg-card flex items-center justify-center">
-                  <span className="font-display font-bold text-primary text-sm">{step.num}</span>
+                <div className="relative z-10 shrink-0 w-12 h-12 rounded-full border-gradient bg-card flex items-center justify-center text-[#02deb6]">
+                  <span className="font-display font-bold text-sm text-[#02deb6]">{step.num}</span>
                 </div>
 
                 <div className={`flex-1 p-6 rounded-xl bg-card/80 backdrop-blur-sm border border-border/50 hover:border-primary/30 transition-all duration-300 group hover:glow-cyan ${

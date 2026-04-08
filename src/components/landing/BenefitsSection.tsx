@@ -19,7 +19,7 @@ const BenefitsSection = () => (
       >
         <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground">
           Por que designers escolhem o{" "}
-          <span className="text-gradient">PixelSafe</span>
+          <span className="text-gradient text-[#02deb6]">PixelSafe</span>
         </h2>
       </motion.div>
 

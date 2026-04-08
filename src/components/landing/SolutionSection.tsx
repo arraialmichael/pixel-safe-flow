@@ -41,7 +41,7 @@ const SolutionSection = () => (
             }`}
           >
             <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-5 group-hover:bg-primary/20 transition-colors duration-300">
-              <f.icon className="h-6 w-6 text-primary group-hover:scale-110 transition-transform duration-300" />
+              <f.icon className="h-6 w-6 group-hover:scale-110 transition-transform duration-300 text-[#02deb6]" />
             </div>
             <h3 className="text-lg font-display font-semibold text-foreground mb-2">{f.title}</h3>
             <p className="text-muted-foreground text-sm leading-relaxed">{f.desc}</p>

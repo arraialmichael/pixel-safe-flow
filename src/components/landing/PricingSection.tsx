@@ -77,7 +77,7 @@ const PricingSection = () => (
         >
           {/* Badge */}
           <div className="absolute -top-4 left-1/2 -translate-x-1/2">
-            <div className="inline-flex items-center gap-1.5 bg-primary text-primary-foreground px-4 py-1.5 rounded-full text-xs font-display font-semibold shimmer-btn">
+            <div className="inline-flex items-center gap-1.5 text-primary-foreground px-4 py-1.5 rounded-full text-xs font-display font-semibold shimmer-btn bg-[#02deb6]">
               <Star className="h-3 w-3" />
               Mais escolhido por designers profissionais
             </div>

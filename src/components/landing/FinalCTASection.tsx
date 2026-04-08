@@ -25,7 +25,7 @@ const FinalCTASection = () => (
       >
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-foreground mb-6 leading-tight">
           Pare de perder tempo e dinheiro com{" "}
-          <span className="text-glow text-primary">processos improvisados</span>
+          <span className="text-glow text-[#02deb6]">processos improvisados</span>
         </h2>
         <p className="text-muted-foreground text-lg mb-10 max-w-xl mx-auto">
           Profissionalize seu fluxo, proteja seu trabalho e receba com segurança.

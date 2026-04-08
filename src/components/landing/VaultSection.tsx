@@ -85,7 +85,7 @@ const VaultSection = () => (
         className="text-center text-xl md:text-2xl font-display font-semibold text-foreground"
       >
         Seu trabalho só é entregue quando o{" "}
-        <span className="text-glow text-primary">pagamento está garantido</span>
+        <span className="text-glow text-[#02deb6]">pagamento está garantido</span>
       </motion.p>
     </div>
   </section>

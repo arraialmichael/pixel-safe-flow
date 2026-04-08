@@ -52,7 +52,7 @@ const ProblemSection = () => (
         className="text-center text-xl md:text-2xl font-display font-semibold text-foreground"
       >
         O problema não é seu trabalho.{" "}
-        <span className="text-glow text-primary">É o processo.</span>
+        <span className="text-glow text-[#02deb6]">É o processo.</span>
       </motion.p>
     </div>
   </section>

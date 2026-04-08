@@ -66,7 +66,7 @@ const BeforeAfterSection = () => (
           <ul className="space-y-5">
             {after.map((item) => (
               <li key={item} className="flex items-center gap-3 text-foreground">
-                <Check className="h-5 w-5 text-primary shrink-0" />
+                <Check className="h-5 w-5 shrink-0 text-[#02deb6]" />
                 {item}
               </li>
             ))}

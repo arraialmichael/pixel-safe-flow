@@ -40,7 +40,7 @@ const ProofSection = () => (
             transition={{ delay: i * 0.1, duration: 0.5 }}
             className="relative flex flex-col items-center gap-3 px-6 py-8 md:px-8 rounded-xl bg-card border border-border/50 hover:border-primary/30 transition-all duration-300 hover:glow-cyan group z-10"
           >
-            <step.icon className="h-8 w-8 text-primary group-hover:scale-110 transition-transform duration-300" />
+            <step.icon className="h-8 w-8 group-hover:scale-110 transition-transform duration-300 text-[#02deb6]" />
             <span className="text-sm font-medium text-foreground">{step.label}</span>
           </motion.div>
         ))}

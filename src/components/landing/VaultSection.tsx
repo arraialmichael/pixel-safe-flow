@@ -22,7 +22,7 @@ const VaultSection = () => (
         </div>
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-foreground mb-4">
           Nunca mais entregue um projeto{" "}
-          <span className="text-glow text-primary">sem receber</span>
+          <span className="text-glow text-[#02deb6]">sem receber</span>
         </h2>
         <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
           O Cofre Anti-Calote protege seu trabalho até o pagamento ser concluído.

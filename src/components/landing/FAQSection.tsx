@@ -32,7 +32,7 @@ const FAQSection = () => (
         className="text-center mb-14"
       >
         <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-4">
-          Perguntas <span className="text-gradient">frequentes</span>
+          Perguntas <span className="text-gradient text-[#02deb6]">frequentes</span>
         </h2>
       </motion.div>
 

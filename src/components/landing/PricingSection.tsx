@@ -13,12 +13,12 @@ const PricingSection = () => (
       >
         <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-4">
           Comece grátis.{" "}
-          <span className="text-gradient">Continue apenas se fizer sentido.</span>
+          <span className="text-gradient text-[#02deb6]">Continue apenas se fizer sentido.</span>
         </h2>
         <p className="text-muted-foreground text-lg mb-5">
           Teste todas as funcionalidades por 7 dias. Sem cartão de crédito.
         </p>
-        <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 text-primary px-5 py-2.5 rounded-full text-sm font-display font-medium">
+        <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 px-5 py-2.5 rounded-full text-sm font-display font-medium text-[#02deb6]">
           <Clock className="h-4 w-4" />
           Seu acesso completo expira em 7 dias
         </div>
@@ -77,7 +77,7 @@ const PricingSection = () => (
         >
           {/* Badge */}
           <div className="absolute -top-4 left-1/2 -translate-x-1/2">
-            <div className="inline-flex items-center gap-1.5 bg-primary text-primary-foreground px-4 py-1.5 rounded-full text-xs font-display font-semibold shimmer-btn">
+            <div className="inline-flex items-center gap-1.5 text-primary-foreground px-4 py-1.5 rounded-full text-xs font-display font-semibold shimmer-btn bg-[#02deb6]">
               <Star className="h-3 w-3" />
               Mais escolhido por designers profissionais
             </div>

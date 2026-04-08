@@ -73,7 +73,7 @@ const HeroSection = () => {
               onClick={() => scrollTo("pricing")}
               className="bg-primary text-primary-foreground hover:bg-primary/90 shimmer-btn text-base px-8 py-6 transition-all hover:scale-105 group glow-cyan font-medium"
             >
-              Começar grátis — acesso completo por 7 dias
+              Começar grátis agora
               <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button

@@ -32,7 +32,7 @@ const Header = () => {
           onClick={() => scrollTo("hero")}>
           
           <div className="relative">
-            <img src={logo} alt="PixelSafe" className="h-8 w-auto transition-all group-hover:drop-shadow-[0_0_8px_hsl(190_100%_50%/0.6)]" />
+            <img src={logo} alt="PixelSafe" className="h-8 w-auto transition-all group-hover:drop-shadow-[0_0_8px_hsl(190_100%_50%/0.6)] text-xl" />
           </div>
         </div>
 

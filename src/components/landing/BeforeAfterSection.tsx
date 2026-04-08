@@ -60,7 +60,7 @@ const BeforeAfterSection = () => (
           {/* Cyan accent line */}
           <div className="absolute left-0 top-8 bottom-8 w-px bg-gradient-to-b from-primary/50 via-primary/20 to-transparent" />
 
-          <h3 className="text-lg font-display font-semibold text-primary mb-8 tracking-wide uppercase text-sm">
+          <h3 className="text-lg font-display font-semibold mb-8 tracking-wide uppercase text-sm text-[#02deb6]">
             Com PixelSafe
           </h3>
           <ul className="space-y-5">

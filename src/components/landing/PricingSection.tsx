@@ -18,7 +18,7 @@ const PricingSection = () => (
         <p className="text-muted-foreground text-lg mb-5">
           Teste todas as funcionalidades por 7 dias. Sem cartão de crédito.
         </p>
-        <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 text-primary px-5 py-2.5 rounded-full text-sm font-display font-medium">
+        <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 px-5 py-2.5 rounded-full text-sm font-display font-medium text-[#02deb6]">
           <Clock className="h-4 w-4" />
           Seu acesso completo expira em 7 dias
         </div>

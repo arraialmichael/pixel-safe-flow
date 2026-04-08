@@ -25,7 +25,7 @@ const BeforeAfterSection = () => (
         className="text-center mb-16"
       >
         <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground">
-          Antes vs <span className="text-gradient text-[#02deb6]">Depois</span>
+          Antes vs <span className="text-gradient">Depois</span>
         </h2>
       </motion.div>
 
@@ -60,13 +60,13 @@ const BeforeAfterSection = () => (
           {/* Cyan accent line */}
           <div className="absolute left-0 top-8 bottom-8 w-px bg-gradient-to-b from-primary/50 via-primary/20 to-transparent" />
 
-          <h3 className="text-lg font-display font-semibold mb-8 tracking-wide uppercase text-sm text-[#02deb6]">
+          <h3 className="text-lg font-display font-semibold text-primary mb-8 tracking-wide uppercase text-sm">
             Com PixelSafe
           </h3>
           <ul className="space-y-5">
             {after.map((item) => (
               <li key={item} className="flex items-center gap-3 text-foreground">
-                <Check className="h-5 w-5 shrink-0 text-[#02deb6]" />
+                <Check className="h-5 w-5 text-primary shrink-0" />
                 {item}
               </li>
             ))}

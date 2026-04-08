@@ -4,7 +4,7 @@ import { Zap, TrendingUp, ShieldCheck, Award } from "lucide-react";
 const benefits = [
   { icon: Zap, title: "Mais velocidade", desc: "IA gera propostas em segundos, não em horas", color: "text-amber-400", glow: "group-hover:shadow-[0_0_30px_hsl(35_92%_50%/0.15)]" },
   { icon: TrendingUp, title: "Mais previsibilidade", desc: "Pagamentos organizados e rastreáveis", color: "text-emerald-400", glow: "group-hover:shadow-[0_0_30px_hsl(160_84%_39%/0.15)]" },
-  { icon: ShieldCheck, title: "Mais segurança", desc: "Cofre Anti-Calote protege cada entrega", color: "text-[#02deb6]", glow: "group-hover:glow-cyan" },
+  { icon: ShieldCheck, title: "Mais segurança", desc: "Cofre Anti-Calote protege cada entrega", color: "text-primary", glow: "group-hover:glow-cyan" },
   { icon: Award, title: "Mais profissionalismo", desc: "Impressione clientes do primeiro contato ao último", color: "text-violet-400", glow: "group-hover:shadow-[0_0_30px_hsl(270_76%_65%/0.15)]" },
 ];
 
@@ -19,7 +19,7 @@ const BenefitsSection = () => (
       >
         <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground">
           Por que designers escolhem o{" "}
-          <span className="text-gradient text-[#02deb6]">PixelSafe</span>
+          <span className="text-gradient">PixelSafe</span>
         </h2>
       </motion.div>
 

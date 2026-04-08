@@ -54,13 +54,13 @@ const HeroSection = () => {
           animate="show"
           className="max-w-3xl"
         >
-          <motion.p variants={item} className="text-[#02deb6] text-sm font-medium tracking-widest uppercase mb-6 font-display">
+          <motion.p variants={item} className="text-primary/80 text-sm font-medium tracking-widest uppercase mb-6 font-display">
             Usado por designers que querem mais segurança e profissionalismo
           </motion.p>
 
           <motion.h1 variants={item} className="text-4xl md:text-5xl lg:text-6xl font-display font-extrabold leading-[1.08] tracking-tight text-foreground mb-6">
             Feche projetos com segurança e{" "}
-            <span className="text-glow text-[#02deb6]">receba sem dor de cabeça</span>
+            <span className="text-glow text-primary">receba sem dor de cabeça</span>
           </motion.h1>
 
           <motion.p variants={item} className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-10 max-w-xl">
@@ -71,7 +71,7 @@ const HeroSection = () => {
             <Button
               size="lg"
               onClick={() => scrollTo("pricing")}
-              className="bg-[#02deb6] text-primary-foreground shimmer-btn text-base px-8 py-6 transition-all hover:scale-105 group glow-cyan font-medium"
+              className="bg-primary text-primary-foreground hover:bg-primary/90 shimmer-btn text-base px-8 py-6 transition-all hover:scale-105 group glow-cyan font-medium"
             >
               Começar grátis — acesso completo por 7 dias
               <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />

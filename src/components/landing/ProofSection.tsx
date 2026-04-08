@@ -20,7 +20,7 @@ const ProofSection = () => (
       >
         <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-4">
           Tudo em um único fluxo{" "}
-          <span className="text-gradient text-[#02deb6]">simples e profissional</span>
+          <span className="text-gradient">simples e profissional</span>
         </h2>
         <p className="text-muted-foreground text-lg mb-16 max-w-2xl mx-auto">
           Do briefing ao pagamento final — sem planilhas, sem improviso e sem risco.
@@ -40,7 +40,7 @@ const ProofSection = () => (
             transition={{ delay: i * 0.1, duration: 0.5 }}
             className="relative flex flex-col items-center gap-3 px-6 py-8 md:px-8 rounded-xl bg-card border border-border/50 hover:border-primary/30 transition-all duration-300 hover:glow-cyan group z-10"
           >
-            <step.icon className="h-8 w-8 group-hover:scale-110 transition-transform duration-300 text-[#02deb6]" />
+            <step.icon className="h-8 w-8 text-primary group-hover:scale-110 transition-transform duration-300" />
             <span className="text-sm font-medium text-foreground">{step.label}</span>
           </motion.div>
         ))}

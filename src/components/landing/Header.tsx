@@ -51,7 +51,7 @@ const Header = () => {
         <div className="hidden md:block">
           <Button
             onClick={() => scrollTo("pricing")}
-            className="text-primary-foreground shimmer-btn transition-all hover:scale-105 glow-cyan font-medium bg-[#02deb6]">
+            className="bg-primary text-primary-foreground hover:bg-primary/90 shimmer-btn transition-all hover:scale-105 glow-cyan font-medium">
             
             Começar grátis
           </Button>

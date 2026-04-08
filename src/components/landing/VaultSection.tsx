@@ -16,13 +16,13 @@ const VaultSection = () => (
         viewport={{ once: true }}
         className="text-center mb-16"
       >
-        <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 px-5 py-2.5 rounded-full text-sm font-display font-medium mb-8 text-[#02deb6]">
+        <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 text-primary px-5 py-2.5 rounded-full text-sm font-display font-medium mb-8">
           <Lock className="h-4 w-4" />
           Cofre Anti-Calote
         </div>
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-foreground mb-4">
           Nunca mais entregue um projeto{" "}
-          <span className="text-glow text-[#02deb6]">sem receber</span>
+          <span className="text-glow text-primary">sem receber</span>
         </h2>
         <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
           O Cofre Anti-Calote protege seu trabalho até o pagamento ser concluído.
@@ -68,7 +68,7 @@ const VaultSection = () => (
           transition={{ duration: 0.5 }}
           className="p-8 rounded-xl bg-card/60 backdrop-blur-sm border border-primary/20 glow-cyan"
         >
-          <ShieldCheck className="h-10 w-10 mb-5 text-[#02deb6]" />
+          <ShieldCheck className="h-10 w-10 text-primary mb-5" />
           <h3 className="text-lg font-display font-semibold text-foreground mb-5">Com PixelSafe</h3>
           <ul className="space-y-3 text-muted-foreground text-sm">
             <li className="flex items-center gap-2"><span className="text-primary">✓</span> Entrega protegida até o pagamento</li>
@@ -85,7 +85,7 @@ const VaultSection = () => (
         className="text-center text-xl md:text-2xl font-display font-semibold text-foreground"
       >
         Seu trabalho só é entregue quando o{" "}
-        <span className="text-glow text-[#02deb6]">pagamento está garantido</span>
+        <span className="text-glow text-primary">pagamento está garantido</span>
       </motion.p>
     </div>
   </section>

@@ -113,7 +113,7 @@ const PricingSection = () => (
             ))}
           </ul>
 
-          <Button className="w-full text-primary-foreground shimmer-btn py-6 text-base transition-all hover:scale-105 group animate-glow-pulse font-medium bg-[#02deb6]">
+          <Button className="w-full bg-primary text-primary-foreground hover:bg-primary/90 shimmer-btn py-6 text-base transition-all hover:scale-105 group animate-glow-pulse font-medium">
             Começar grátis
             <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
           </Button>

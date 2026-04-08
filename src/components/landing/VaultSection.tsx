@@ -68,7 +68,7 @@ const VaultSection = () => (
           transition={{ duration: 0.5 }}
           className="p-8 rounded-xl bg-card/60 backdrop-blur-sm border border-primary/20 glow-cyan"
         >
-          <ShieldCheck className="h-10 w-10 text-primary mb-5" />
+          <ShieldCheck className="h-10 w-10 mb-5 text-[#02deb6]" />
           <h3 className="text-lg font-display font-semibold text-foreground mb-5">Com PixelSafe</h3>
           <ul className="space-y-3 text-muted-foreground text-sm">
             <li className="flex items-center gap-2"><span className="text-primary">✓</span> Entrega protegida até o pagamento</li>

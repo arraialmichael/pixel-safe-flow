@@ -71,8 +71,8 @@ export default {
           "50%": { transform: "translateY(-10px)" },
         },
         "glow-pulse": {
-          "0%, 100%": { boxShadow: "0 0 20px hsl(190 100% 50% / 0.2)" },
-          "50%": { boxShadow: "0 0 40px hsl(190 100% 50% / 0.4)" },
+          "0%, 100%": { boxShadow: "0 0 20px hsl(163 98% 44% / 0.2)" },
+          "50%": { boxShadow: "0 0 40px hsl(163 98% 44% / 0.4)" },
         },
         "spin-slow": {
           "0%": { transform: "rotate(0deg)" },

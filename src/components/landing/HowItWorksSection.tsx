@@ -19,7 +19,7 @@ const HowItWorksSection = () => (
         className="text-center mb-16"
       >
         <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-4">
-          Como <span className="text-gradient">funciona</span>
+          Como <span className="text-gradient text-[#02deb6]">funciona</span>
         </h2>
       </motion.div>
 

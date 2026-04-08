@@ -25,7 +25,7 @@ const BeforeAfterSection = () => (
         className="text-center mb-16"
       >
         <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground">
-          Antes vs <span className="text-gradient">Depois</span>
+          Antes vs <span className="text-gradient text-[#02deb6]">Depois</span>
         </h2>
       </motion.div>
 

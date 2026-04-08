@@ -23,7 +23,7 @@ const ProblemSection = () => (
       >
         <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-4">
           Se você trabalha com design,{" "}
-          <span className="text-gradient">já passou por isso:</span>
+          <span className="text-gradient text-[#02deb6]">já passou por isso:</span>
         </h2>
       </motion.div>
 

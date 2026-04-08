@@ -21,7 +21,7 @@ const SolutionSection = () => (
       >
         <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-4">
           O PixelSafe organiza e{" "}
-          <span className="text-gradient">protege todo o seu fluxo</span>
+          <span className="text-gradient text-[#02deb6]">protege todo o seu fluxo</span>
         </h2>
         <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
           Você não precisa de várias ferramentas. Só de um processo que funciona.

@@ -20,7 +20,7 @@ const ProofSection = () => (
       >
         <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-4">
           Tudo em um único fluxo{" "}
-          <span className="text-gradient">simples e profissional</span>
+          <span className="text-gradient text-[#02deb6]">simples e profissional</span>
         </h2>
         <p className="text-muted-foreground text-lg mb-16 max-w-2xl mx-auto">
           Do briefing ao pagamento final — sem planilhas, sem improviso e sem risco.

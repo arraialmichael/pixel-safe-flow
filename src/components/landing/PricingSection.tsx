@@ -13,7 +13,7 @@ const PricingSection = () => (
       >
         <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-4">
           Comece grátis.{" "}
-          <span className="text-gradient">Continue apenas se fizer sentido.</span>
+          <span className="text-gradient text-[#02deb6]">Continue apenas se fizer sentido.</span>
         </h2>
         <p className="text-muted-foreground text-lg mb-5">
           Teste todas as funcionalidades por 7 dias. Sem cartão de crédito.

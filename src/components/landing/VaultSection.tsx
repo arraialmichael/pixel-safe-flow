@@ -16,7 +16,7 @@ const VaultSection = () => (
         viewport={{ once: true }}
         className="text-center mb-16"
       >
-        <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 text-primary px-5 py-2.5 rounded-full text-sm font-display font-medium mb-8">
+        <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 px-5 py-2.5 rounded-full text-sm font-display font-medium mb-8 text-[#02deb6]">
           <Lock className="h-4 w-4" />
           Cofre Anti-Calote
         </div>

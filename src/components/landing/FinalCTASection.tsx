@@ -8,7 +8,7 @@ const FinalCTASection = () => (
     <div className="absolute inset-0 pointer-events-none opacity-[0.03]">
       <svg className="w-full h-full" viewBox="0 0 800 600" fill="none">
         <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
-          <rect width="60" height="60" fill="none" stroke="hsl(190 100% 50%)" strokeWidth="0.5" />
+          <rect width="60" height="60" fill="none" stroke="hsl(163 98% 44%)" strokeWidth="0.5" />
         </pattern>
         <rect width="100%" height="100%" fill="url(#grid)" />
       </svg>

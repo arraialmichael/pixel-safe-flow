@@ -34,7 +34,7 @@ const FinalCTASection = () => (
           size="lg"
           className="bg-primary text-primary-foreground hover:bg-primary/90 shimmer-btn text-base px-10 py-7 transition-all hover:scale-105 group glow-cyan-strong animate-glow-pulse font-medium"
         >
-          Começar grátis agora — acesso completo por 7 dias
+          Começar grátis agora
           <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
         </Button>
         <p className="text-sm text-muted-foreground mt-5">

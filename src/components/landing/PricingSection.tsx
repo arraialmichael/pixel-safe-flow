@@ -15,13 +15,9 @@ const PricingSection = () => (
           Comece grátis.{" "}
           <span className="text-gradient">Continue apenas se fizer sentido.</span>
         </h2>
-        <p className="text-muted-foreground text-lg mb-5">
+        <p className="text-muted-foreground text-lg">
           Teste todas as funcionalidades por 7 dias. Sem cartão de crédito.
         </p>
-        <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 text-primary px-5 py-2.5 rounded-full text-sm font-display font-medium">
-          <Clock className="h-4 w-4" />
-          Seu acesso completo expira em 7 dias
-        </div>
       </motion.div>
 
       <div className="grid md:grid-cols-2 gap-8 mt-14 items-start">

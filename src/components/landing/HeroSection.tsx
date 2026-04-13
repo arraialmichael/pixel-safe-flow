@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowRight, Play } from "lucide-react";
+import { ArrowRight, Play, ShieldCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const container = {
@@ -87,9 +87,14 @@ const HeroSection = () => {
             </Button>
           </motion.div>
 
-          <motion.p variants={item} className="text-sm text-muted-foreground">
+          <motion.p variants={item} className="text-sm text-muted-foreground mb-4">
             Sem cartão de crédito • Acesso imediato
           </motion.p>
+
+          <motion.div variants={item} className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 text-primary px-4 py-2 rounded-full text-sm font-display font-medium">
+            <ShieldCheck className="h-4 w-4" />
+            Processo Blindado de Ponta a Ponta
+          </motion.div>
         </motion.div>
       </div>
     </section>

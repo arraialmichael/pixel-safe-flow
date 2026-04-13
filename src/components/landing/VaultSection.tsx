@@ -1,9 +1,8 @@
 import { motion } from "framer-motion";
-import { ShieldOff, ShieldCheck, Lock } from "lucide-react";
+import { ShieldOff, ShieldCheck, Lock, KeyRound, LockKeyhole } from "lucide-react";
 
 const VaultSection = () => (
   <section className="section-padding relative overflow-hidden">
-    {/* Dramatic blue mesh */}
     <div className="absolute inset-0 pointer-events-none">
       <div className="absolute inset-0 bg-mesh-blue opacity-200" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-primary/[0.04] blur-[100px]" />
@@ -18,18 +17,17 @@ const VaultSection = () => (
       >
         <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 text-primary px-5 py-2.5 rounded-full text-sm font-display font-medium mb-8">
           <Lock className="h-4 w-4" />
-          Cofre Anti-Calote
+          Cofre Digital com Nível de Segurança Bancária
         </div>
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-foreground mb-4">
           Nunca mais entregue um projeto{" "}
           <span className="text-glow text-primary">sem receber</span>
         </h2>
         <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-          O Cofre Anti-Calote protege seu trabalho até o pagamento ser concluído.
+          Seus arquivos são protegidos por <strong className="text-foreground">Links de Acesso Temporário e Encriptados</strong> — ninguém acessa até o pagamento ser confirmado.
         </p>
       </motion.div>
 
-      {/* Central shield icon */}
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
         whileInView={{ opacity: 1, scale: 1 }}
@@ -58,6 +56,7 @@ const VaultSection = () => (
             <li className="flex items-center gap-2"><span className="text-destructive">✕</span> Entrega antes de receber</li>
             <li className="flex items-center gap-2"><span className="text-destructive">✕</span> Cobrança manual por WhatsApp</li>
             <li className="flex items-center gap-2"><span className="text-destructive">✕</span> Risco de calote em todo projeto</li>
+            <li className="flex items-center gap-2"><span className="text-destructive">✕</span> Cliente paga valor errado e alega quitação</li>
           </ul>
         </motion.div>
 
@@ -71,9 +70,9 @@ const VaultSection = () => (
           <ShieldCheck className="h-10 w-10 text-primary mb-5" />
           <h3 className="text-lg font-display font-semibold text-foreground mb-5">Com PixelSafe</h3>
           <ul className="space-y-3 text-muted-foreground text-sm">
-            <li className="flex items-center gap-2"><span className="text-primary">✓</span> Entrega protegida até o pagamento</li>
-            <li className="flex items-center gap-2"><span className="text-primary">✓</span> Cobrança automatizada</li>
-            <li className="flex items-center gap-2"><span className="text-primary">✓</span> Zero risco de calote</li>
+            <li className="flex items-center gap-2"><KeyRound className="h-4 w-4 text-primary flex-shrink-0" /> Entrega via links temporários e encriptados</li>
+            <li className="flex items-center gap-2"><LockKeyhole className="h-4 w-4 text-primary flex-shrink-0" /> Cofre digital com segurança de nível bancário</li>
+            <li className="flex items-center gap-2"><ShieldCheck className="h-4 w-4 text-primary flex-shrink-0" /> Arquivos 100% inacessíveis até o último centavo</li>
           </ul>
         </motion.div>
       </div>
@@ -84,8 +83,8 @@ const VaultSection = () => (
         viewport={{ once: true }}
         className="text-center text-xl md:text-2xl font-display font-semibold text-foreground"
       >
-        Seu trabalho só é entregue quando o{" "}
-        <span className="text-glow text-primary">pagamento está garantido</span>
+        Seus arquivos ficam trancados em um cofre digital encriptado —{" "}
+        <span className="text-glow text-primary">inacessível até a confirmação do último centavo</span>
       </motion.p>
     </div>
   </section>

@@ -3,8 +3,8 @@ import { Sparkles, Link, FileText, CreditCard, ShieldCheck } from "lucide-react"
 
 const steps = [
   { icon: Sparkles, num: "01", title: "Crie proposta com IA", desc: "Descreva o projeto e receba uma proposta profissional em segundos" },
-  { icon: Link, num: "02", title: "Envie link profissional", desc: "Seu cliente visualiza e aprova diretamente no navegador" },
-  { icon: FileText, num: "03", title: "Gere contrato automaticamente", desc: "A proposta vira contrato com valores, prazos e condições" },
+  { icon: Link, num: "02", title: "Envie link profissional", desc: "Seu cliente visualiza a proposta diretamente no navegador" },
+  { icon: FileText, num: "03", title: "Gere contrato automaticamente", desc: "A proposta aprovada vira contrato com valores, prazos e condições" },
   { icon: CreditCard, num: "04", title: "Receba pagamento", desc: "Pix, cartão ou boleto — o dinheiro vai direto pra você" },
   { icon: ShieldCheck, num: "05", title: "Libere arquivos com segurança", desc: "Os arquivos só são entregues após o pagamento confirmado" },
 ];

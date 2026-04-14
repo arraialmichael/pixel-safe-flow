@@ -28,7 +28,7 @@ const FinalCTASection = () => (
           <span className="text-glow text-primary">processos improvisados</span>
         </h2>
         <p className="text-muted-foreground text-lg mb-10 max-w-xl mx-auto">
-          Profissionalize seu fluxo, proteja seu trabalho e receba com segurança.
+          Profissionalize seu fluxo, proteja seu trabalho e receba com segurança — tudo por apenas R$49/mês.
         </p>
         <Button
           size="lg"

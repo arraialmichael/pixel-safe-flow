@@ -56,7 +56,7 @@ const VaultSection = () => (
             <li className="flex items-center gap-2"><span className="text-destructive">✕</span> Entrega antes de receber</li>
             <li className="flex items-center gap-2"><span className="text-destructive">✕</span> Cobrança manual por WhatsApp</li>
             <li className="flex items-center gap-2"><span className="text-destructive">✕</span> Risco de calote em todo projeto</li>
-            <li className="flex items-center gap-2"><span className="text-destructive">✕</span> Cliente paga valor errado e alega quitação</li>
+            
           </ul>
         </motion.div>
 

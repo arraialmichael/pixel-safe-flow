@@ -4,7 +4,7 @@ import { Sparkles, FileCheck, ShieldAlert, Lock, Users, Zap } from "lucide-react
 const features = [
   { icon: Sparkles, title: "Propostas com IA", desc: "Descreva o projeto e a IA cria uma proposta completa e profissional", large: true },
   { icon: FileCheck, title: "Contratos automáticos", desc: "Transforme propostas em contratos com um clique", large: false },
-  { icon: ShieldAlert, title: "Blindagem de Pagamento", desc: "O sistema bloqueia qualquer valor diferente do contrato. Ninguém paga R$ 1 para liberar um projeto de R$ 1.000.", large: false },
+  
   { icon: Lock, title: "Cofre Anti-Calote", desc: "Arquivos trancados com links encriptados. Só libera após pagamento integral confirmado.", large: true },
   { icon: Users, title: "Gestão de clientes", desc: "Organize todos os seus projetos e clientes em um só lugar", large: false },
   { icon: Zap, title: "Aprovação via link", desc: "Seu cliente aprova direto no navegador, sem criar conta", large: false },

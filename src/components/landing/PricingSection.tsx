@@ -9,6 +9,8 @@ const features = [
   "Pagamento blindado integrado",
   "Cofre Anti-Calote",
   "Liberação automática de arquivos",
+  "Gestão de Equipe",
+  "Gestão de clientes",
   "Suporte prioritário",
 ];
 

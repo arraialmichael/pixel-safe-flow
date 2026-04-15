@@ -11,9 +11,12 @@ const Footer = () => (
         <Shield className="h-5 w-5 text-primary" />
         <span className="font-display font-semibold text-foreground">PixelSafe</span>
       </div>
-      <p className="text-sm text-muted-foreground">
-        © {new Date().getFullYear()} PixelSafe. Todos os direitos reservados.
-      </p>
+      <div className="flex flex-col items-center md:items-end gap-1">
+        <p className="text-xs text-muted-foreground/60">Última atualização: Abril 2026</p>
+        <p className="text-sm text-muted-foreground">
+          © {new Date().getFullYear()} PixelSafe. Todos os direitos reservados.
+        </p>
+      </div>
     </div>
   </footer>
 );

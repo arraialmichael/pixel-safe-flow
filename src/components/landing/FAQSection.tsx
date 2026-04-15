@@ -29,6 +29,11 @@ const faqs = [
     icon: Check,
   },
   {
+    q: "Como funciona a assinatura digital dos contratos?",
+    a: "Após a aprovação da proposta, o contrato é gerado automaticamente com todos os dados do projeto. O seu cliente recebe um link seguro para revisar e assinar digitalmente, com registro de IP, data, hora e geolocalização. Tudo fica armazenado com validade jurídica, sem necessidade de impressão ou cartório.",
+    icon: ShieldCheck,
+  },
+  {
     q: "Por que custa apenas R$ 49,00?",
     a: "Este é o nosso preço promocional de lançamento. Queremos democratizar a segurança para designers brasileiros. Um único calote evitado paga anos de assinatura da plataforma.",
     icon: ShieldCheck,

@@ -1,31 +1,14 @@
 
 
-## Plano: Plano Único "Acesso Total" R$49/mês
+## Plano: Nova pergunta no FAQ sobre assinatura digital
 
-### Arquivo: `src/components/landing/PricingSection.tsx`
+### Arquivo: `src/components/landing/FAQSection.tsx`
 
-Reescrever o componente completo:
+Adicionar um novo item ao array `faqs` (posição 5, antes da pergunta sobre preço):
 
-**Header da seção:**
-- Título: "Um único plano. **Proteção total para o seu estúdio.**"
-- Subtítulo: "Todas as funcionalidades premium incluídas. Sem surpresas."
+**Pergunta:** "Como funciona a assinatura digital dos contratos?"
 
-**Card único centralizado** (`max-w-lg mx-auto`):
-- Badge topo: "Preço Promocional de Lançamento" com ícone `Star` e shimmer
-- Título: "Acesso Total"
-- Subtítulo: "Tudo o que o PixelSafe oferece, sem limitações"
-- Preço: ~~R$99~~ **R$49**/mês (ancoragem com line-through)
-- Selo: "Oferta válida apenas no lançamento"
-- Lista completa com checks:
-  - Propostas com IA ilimitadas
-  - Contratos profissionais automáticos
-  - PDFs personalizados
-  - Pagamento blindado integrado
-  - Cofre Anti-Calote
-  - Liberação automática de arquivos
-  - Suporte prioritário
-- CTA: "Começar grátis agora" (shimmer-btn, glow-pulse, hover:scale-105)
-- Frase de fechamento: "Recupere o investimento logo no primeiro projeto fechado"
+**Resposta:** "Após a aprovação da proposta, o contrato é gerado automaticamente com todos os dados do projeto. O seu cliente recebe um link seguro para revisar e assinar digitalmente, com registro de IP, data, hora e geolocalização. Tudo fica armazenado com validade jurídica, sem necessidade de impressão ou cartório."
 
-**Visual:** border-gradient, glow-cyan-strong, mesmo padrão do antigo card Pro mas centralizado e maior.
+**Ícone:** `ShieldCheck` (consistente com o padrão de segurança das outras respostas).
 

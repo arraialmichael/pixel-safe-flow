@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ShieldCheck, Check } from "lucide-react";
+import { ShieldCheck, Check, Zap } from "lucide-react";
 import {
   Accordion,
   AccordionContent,

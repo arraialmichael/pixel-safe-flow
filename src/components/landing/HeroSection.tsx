@@ -64,7 +64,7 @@ const HeroSection = () => {
           </motion.h1>
 
           <motion.p variants={item} className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-10 max-w-xl">
-            Gere propostas com IA, envie contratos, receba pagamentos e só libere os arquivos finais quando tudo estiver pago.
+            Proteja suas entregas com o Cofre Anti-Calote. Crie propostas com IA, envie contratos com assinatura digital e receba sem stress. Teste grátis por 7 dias.
           </motion.p>
 
           <motion.div variants={item} className="flex flex-col sm:flex-row gap-4 mb-5">

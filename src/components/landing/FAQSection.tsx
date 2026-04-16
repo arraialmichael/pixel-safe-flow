@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ShieldCheck, Check } from "lucide-react";
+import { ShieldCheck, Check, Zap } from "lucide-react";
 import {
   Accordion,
   AccordionContent,
@@ -32,6 +32,11 @@ const faqs = [
     q: "Como funciona a assinatura digital dos contratos?",
     a: "Após a aprovação da proposta, o contrato é gerado automaticamente com todos os dados do projeto. O seu cliente recebe um link seguro para revisar e assinar digitalmente, com registro de IP, data, hora e geolocalização. Tudo fica armazenado com validade jurídica, sem necessidade de impressão ou cartório.",
     icon: ShieldCheck,
+  },
+  {
+    q: "Preciso ter conta no Mercado Pago para usar o PixelSafe?",
+    a: "Sim, e o motivo é a sua segurança. A nossa integração oficial com o Mercado Pago é o que permite a Automação de Blindagem: assim que o seu cliente paga, o sistema reconhece o valor exato instantaneamente e liberta os arquivos no Cofre. Abrir a conta é 100% gratuito, leva menos de 3 minutos e o seu cliente não precisa ter conta no Mercado Pago para lhe pagar — ele pode usar Pix, Cartão ou Boleto de qualquer banco. É a tecnologia trabalhando para garantir que você receba cada centavo sem precisar cobrar ninguém manualmente.",
+    icon: Zap,
   },
   {
     q: "Por que custa apenas R$ 49,00?",

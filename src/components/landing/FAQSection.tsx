@@ -34,6 +34,11 @@ const faqs = [
     icon: ShieldCheck,
   },
   {
+    q: "Preciso ter conta no Mercado Pago para usar o PixelSafe?",
+    a: "Sim, e o motivo é a sua segurança. A nossa integração oficial com o Mercado Pago é o que permite a Automação de Blindagem: assim que o seu cliente paga, o sistema reconhece o valor exato instantaneamente e liberta os arquivos no Cofre. Abrir a conta é 100% gratuito, leva menos de 3 minutos e o seu cliente não precisa ter conta no Mercado Pago para lhe pagar — ele pode usar Pix, Cartão ou Boleto de qualquer banco. É a tecnologia trabalhando para garantir que você receba cada centavo sem precisar cobrar ninguém manualmente.",
+    icon: Zap,
+  },
+  {
     q: "Por que custa apenas R$ 49,00?",
     a: "Este é o nosso preço promocional de lançamento. Queremos democratizar a segurança para designers brasileiros. Um único calote evitado paga anos de assinatura da plataforma.",
     icon: ShieldCheck,
